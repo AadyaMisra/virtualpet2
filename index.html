@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Virtual Pet-1</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+      <script src="p5.play.js"></script>
+
+      <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+      <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyDNYrz6egKww64C0CZpEn8BEohIj5tzMN4",
+        authDomain: "virtual-pet-b65e4.firebaseapp.com",
+        databaseURL: "https://virtual-pet-b65e4-default-rtdb.firebaseio.com",
+        projectId: "virtual-pet-b65e4",
+        storageBucket: "virtual-pet-b65e4.appspot.com",
+        messagingSenderId: "216883747092",
+        appId: "1:216883747092:web:6e22a16d334d14ed75ca01"
+      };
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+      <!--Your web app's Firebase configuration
+         Add here
+        Initialize Firebase-->
+
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+      <script src="sketch.js"></script>
+      <script src="js/food.js"></script>
+    </body>
+  </html>
